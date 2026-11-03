@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "updated": "2026-11-03",
+  "interval_seconds": 12,
+  "slots": ["entrance", "hub", "hangar", "ski"],
+  "ads": [
+    {
+      "id": "sample_new_arrivals",
+      "image": "https://raw.githubusercontent.com/marukichitadashi-jpg/snowplow-village-ads/main/ads/sample_new_arrivals.png",
+      "title": "NEW ARRIVALS - Companion Robot PIXEL / Rideable Rotary Snow Blower",
+      "link": "https://marukichi7878.booth.pm/",
+      "from": "2026-11-03",
+      "to": "2027-12-31",
+      "slots": ["entrance", "hub", "hangar", "ski"]
+    },
+    {
+      "id": "sample_snowplow_series",
+      "image": "https://raw.githubusercontent.com/marukichitadashi-jpg/snowplow-village-ads/main/ads/sample_snowplow_series.png",
+      "title": "SNOWPLOW SERIES - rideable snowplows for your avatar",
+      "link": "https://marukichi7878.booth.pm/",
+      "from": "2026-11-03",
+      "to": "2027-12-31",
+      "slots": ["entrance", "hub", "hangar", "ski"]
+    }
+  ]
+}
