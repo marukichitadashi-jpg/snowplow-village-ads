@@ -36,7 +36,7 @@ Udon cannot build URLs at runtime (`VRCUrl` values are baked into the world). Th
 5. `frames` に書いた絵だけが読まれます。同じ絵を何枚もの板に出す時は、枠ごとに同じ名前の番号へコピーします / only the images named in `frames` are downloaded; to show one picture on several boards, copy it to the matching number in each slot
 
 ## 板の仕組み（ワールド側・SnowAdBoard）/ How the world reads it
-- 一覧 `ads.json` を VRCStringDownloader で（入った 8 秒後に 1 回・以後 30 分ごと）、絵を VRCImageDownloader で 1 枚ずつ 5.5 秒あけて読む（`raw.githubusercontent.com` は VRChat の信頼された置き場所）
+- 一覧 `ads.json` を VRCStringDownloader で（入った 8 秒後に 1 回・以後 30 分ごと）、絵を VRCImageDownloader で 1 枚ずつ 5.5 秒あけて読む。読む先は GitHub Pages の `https://marukichitadashi-jpg.github.io/snowplow-village-ads/`（`*.github.io` は VRChat の信頼された置き場所。`raw.githubusercontent.com` は信頼されていないので使わない）/ the world reads from GitHub Pages (`*.github.io` is on VRChat's trusted list; raw.githubusercontent.com is not)
 - 板は `interval_seconds` ごとに次の広告へ。となりの板とは別の広告から始まる / boards rotate every `interval_seconds`; neighbouring boards start on different ads
 - 読めない時（失敗・一覧が空・期間外ばかり）は、ワールドに焼きこんである自分の商品の板のまま / if loading fails or nothing is active, the boards keep the built-in images
 - 一度読んだ絵は、そのプレイヤーがワールドに入り直すまで読み直しません。絵を上書きした時は、入り直した人から新しい絵になります / a loaded image is not re-downloaded until the player rejoins; after overwriting a file, new joiners see the new picture
