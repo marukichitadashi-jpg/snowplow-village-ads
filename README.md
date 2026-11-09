@@ -11,6 +11,7 @@ This repository holds the images and the list for the ad boards inside the VRCha
   - `hub_1` … `hub_4`（宇宙ステーションのハブ / space station hub — Tier 2）
   - `hangar_1` … `hangar_4`（格納庫 / hangar — Tier 3）
   - `ski_1` … `ski_4`（スキー場のふもと / ski base — Tier 2・板は準備中 / board planned）
+  - `posterL_1` … `posterL_4`・`posterC_1` … `posterC_4`・`posterR_1` … `posterR_4`（入口の大きな「POSTER BOARD」の左・中・右の面 / the three faces of the big poster board at the entrance — Tier 1）。**縦長 3:4（1152×1536）** の絵 / portrait 3:4 images (1152×1536)
 - `ads/*.png` — 絵の元（出稿者ごとの名前で保管）/ originals, kept by advertiser name. The world does not read this folder.
 
 ## なぜ絵の名前が固定なのか / Why the image names are fixed

@@ -6,7 +6,10 @@
     "entrance": 4,
     "hub": 4,
     "hangar": 4,
-    "ski": 4
+    "ski": 4,
+    "posterL": 4,
+    "posterC": 4,
+    "posterR": 4
   },
   "ads": [
     {
@@ -44,7 +47,8 @@
       "frames": [
         "entrance_3",
         "hub_3",
-        "hangar_3"
+        "hangar_3",
+        "posterL_1"
       ]
     }
   ]
