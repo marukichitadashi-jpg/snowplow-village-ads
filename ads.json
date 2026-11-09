@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "updated": "2026-11-03",
+  "updated": "2026-11-09",
   "interval_seconds": 12,
-  "slots": {"entrance": 4, "hub": 4, "hangar": 4, "ski": 4},
+  "slots": {
+    "entrance": 4,
+    "hub": 4,
+    "hangar": 4,
+    "ski": 4
+  },
   "ads": [
     {
       "id": "sample_new_arrivals",
@@ -10,7 +15,12 @@
       "link": "https://marukichi7878.booth.pm/",
       "from": "2026-11-03",
       "to": "2027-12-31",
-      "frames": ["entrance_1", "hub_1", "hangar_1", "ski_1"]
+      "frames": [
+        "entrance_1",
+        "hub_1",
+        "hangar_1",
+        "ski_1"
+      ]
     },
     {
       "id": "sample_snowplow_series",
@@ -18,7 +28,22 @@
       "link": "https://marukichi7878.booth.pm/",
       "from": "2026-11-03",
       "to": "2027-12-31",
-      "frames": ["entrance_2", "hub_2", "hangar_2", "ski_2"]
+      "frames": [
+        "entrance_2",
+        "hub_2",
+        "hangar_2",
+        "ski_2"
+      ]
+    },
+    {
+      "id": "2026-11_popcorn_wagon",
+      "title": "KARAKURI POPCORN WAGON (からくりポップコーンワゴン) by スティーム",
+      "link": "https://saastiym.booth.pm/items/9109554",
+      "from": "2026-11-09",
+      "to": "2026-12-31",
+      "frames": [
+        "entrance_3"
+      ]
     }
   ]
 }
