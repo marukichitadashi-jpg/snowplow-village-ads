@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-11-09",
+  "updated": "2026-11-13",
   "interval_seconds": 12,
   "slots": {
     "entrance": 4,
@@ -13,10 +13,10 @@
   },
   "ads": [
     {
-      "id": "sample_new_arrivals",
-      "title": "NEW ARRIVALS - Companion Robot PIXEL / Rideable Rotary Snow Blower",
-      "link": "https://marukichi7878.booth.pm/",
-      "from": "2026-11-03",
+      "id": "2026-11_groomer_new",
+      "title": "NEW ARRIVALS - Rideable Snow Groomer / Snow Groomer Premium",
+      "link": "https://marukichi.booth.pm/items/9140391",
+      "from": "2026-11-13",
       "to": "2027-12-31",
       "frames": [
         "entrance_1",
@@ -28,7 +28,7 @@
     {
       "id": "sample_snowplow_series",
       "title": "SNOWPLOW SERIES - rideable snowplows for your avatar",
-      "link": "https://marukichi7878.booth.pm/",
+      "link": "https://marukichi.booth.pm/",
       "from": "2026-11-03",
       "to": "2027-12-31",
       "frames": [
@@ -49,6 +49,16 @@
         "hub_3",
         "hangar_3",
         "posterL_1"
+      ]
+    },
+    {
+      "id": "2026-11_groomer_premium_poster",
+      "title": "FLAGSHIP - Rideable Snow Groomer Premium (poster)",
+      "link": "https://marukichi.booth.pm/items/9140391",
+      "from": "2026-11-13",
+      "to": "2027-12-31",
+      "frames": [
+        "posterC_1"
       ]
     }
   ]
